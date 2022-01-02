@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Heading Attributes*/
+/*Heading elements*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -41,6 +41,7 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Anchor*/
 a {
     text-decoration: none;
 }
@@ -89,16 +90,17 @@ p {
 }
 
 .content img {
-    margin: 0px 25px;
     max-height: 200px;
 }
 
 .float-left {
     float: left;
+    margin-right: 25px;
 }
 
 .float-right {
     float: right;
+    margin-left: 25px;
 }
 
 /* Aside element with class 'benefits' */
